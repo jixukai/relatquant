@@ -89,5 +89,5 @@
         });
         chart.render();
       }
-      _index(abc);
+      _index();
     </script>
