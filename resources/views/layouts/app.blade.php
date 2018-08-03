@@ -13,8 +13,11 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}"></script>
+
     <!-- 下句script的作用，有待研究清楚，G2图表示例中自带 -->
-    <script>/*Fixing iframe window.innerHeight 0 issue in Safari*/document.body.clientHeight;</script>
+    <!-- <script>/*Fixing iframe window.innerHeight 0 issue in Safari*/document.body.clientHeight;</script> -->
     <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g2-3.2.4/dist/g2.min.js"></script>
     <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.data-set-0.8.9/dist/data-set.min.js"></script>
 </head>
@@ -34,7 +37,6 @@
         @include('layouts._footer')
     </div>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
+
 </body>
 </html>
