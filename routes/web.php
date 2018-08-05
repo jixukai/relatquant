@@ -12,3 +12,6 @@
 */
 
 Route::get('/', 'PagesController@home')->name('home');
+
+// Charts Routes
+ Route::post('/chartdata', 'ChartsController@chartdata')->name('chartdata');
