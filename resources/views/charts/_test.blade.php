@@ -52,15 +52,14 @@ function chartType_1(indexA, indexB, SymbolType, divId)
   };
 
 
-  function _test()
+  function chartGo()
   {
   $.post("{{ url('/chartdata') }}", {
   "_token": "{{ csrf_token() }}"
   }, callback);
-
   }
 
-  _test();
+  chartGo();
 }
 
 chartType_1('cpi', 'ppi', '%', 'cpi_ppi');
