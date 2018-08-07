@@ -15,6 +15,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="/js/test.js"></script>
     
     <!-- 下句script的作用，有待研究清楚，G2图表示例中自带 -->
     <!-- <script>/*Fixing iframe window.innerHeight 0 issue in Safari*/document.body.clientHeight;</script> -->
