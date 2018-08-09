@@ -29,11 +29,11 @@
     <div id="relatquant">
         @include('layouts._header')
 
-        <div class="container">
+        <main class="main">
 
             @yield('content')
 
-        </div>
+        </main>
 
         @include('layouts._footer')
     </div>

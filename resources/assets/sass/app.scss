@@ -6,4 +6,97 @@
 @import "variables";
 
 // Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+/* universal */
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: white;
+}
+body a {
+    color: #6c6c6c;
+    text-decoration: none;
+}
+body a:hover {
+    color: #272727;
+}
+
+/* nav-top */
+.navbar-top {
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 0px 15px grey;
+    background-color: #f7f7f7;
+}
+.navbar-top .container {
+    width: 1200px;
+    margin: auto;
+}
+.logo {
+    float: left;
+}
+.logo a{
+    display: block;
+    line-height: 80px;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 2em;
+    color: #3980f1;
+    text-decoration: none;
+}
+.logo a:hover {
+    color: #3980f1;
+}
+.r-color {
+    color: rgb(243, 103, 52);
+    font-size: 1.2em;
+}
+.navbar-menu {
+    float: right;
+    width: 50%;
+}
+.navbar-menu ul {
+    margin: 0;
+}
+.navbar-menu li {
+    float: left;
+    list-style: none;
+}
+.navbar-menu a {
+    display: block;
+    line-height: 80px;
+    font-weight: bold;
+}
+.navbar-left a {
+    padding: 0 30px;
+}
+.navbar-right {
+    float: right;
+}
+.navbar-right a {
+    padding: 0 10px;
+    /* background-color: #e0e0e0; */
+}
+
+/* main */
+.main {
+    width: 1200px;
+    margin: auto;
+}
+
+
+
+
+
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 200px;
+    background: #f7f7f7;
+}
+.footer p {
+    line-height: 40px;
+    text-align: center;
+}

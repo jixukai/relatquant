@@ -1,32 +1,22 @@
-<nav class="navbar navbar-default navbar-static-top">
+<nav class="navbar-top">
     <div class="container">
-        <div class="navbar-header">
-
-            <!-- Collapsed Hamburger -->
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
-                <span class="sr-only">Toggle Navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <!-- Branding Image -->
-            <a class="navbar-brand" href="{{ url('/') }}">
-                RelatQuant
+        <div class="logo">
+            <a href="{{ url('/') }}">
+                <span class="r-color">R</span>elatQuant
             </a>
         </div>
-
-        <div class="collapse navbar-collapse" id="app-navbar-collapse">
+    
+        <div class="navbar-menu">
             <!-- Left Side Of Navbar -->
-            <ul class="nav navbar-nav">
-
+            <ul class="navbar-left">
+                <li><a href="#">宏观</a></li>
+                <li><a href="#">微观</a></li>
+                <li><a href="#">热点</a></li>
+                <li><a href="#">时光轴</a></li>
             </ul>
-
             <!-- Right Side Of Navbar -->
-            <ul class="nav navbar-nav navbar-right">
-                <!-- Authentication Links -->
+            <ul class="navbar-right">
                 <li><a href="#">登录</a></li>
-                <li><a href="#">注册</a></li>
             </ul>
         </div>
     </div>
